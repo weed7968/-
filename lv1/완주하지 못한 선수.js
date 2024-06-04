@@ -20,5 +20,4 @@ function solution(participant, completion) {
   for (let [k, v] of map) {
     if (v > 0) return k;
   }
-  return "nothing";
 }
